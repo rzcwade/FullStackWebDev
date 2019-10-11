@@ -37,6 +37,21 @@
                 <dx:GridViewDataTextColumn FieldName="ModifiedBy" VisibleIndex="5">
                 </dx:GridViewDataTextColumn>
             </Columns>
+            <SettingsPager Mode="ShowAllRecords"/>
+        <EditFormLayoutProperties ColCount="3">
+            <Items>
+                <dx:GridViewColumnLayoutItem ColumnName="FirstName" />
+                <dx:GridViewColumnLayoutItem ColumnName="Title" />
+                <dx:GridViewColumnLayoutItem ColumnName="Notes" />
+                <dx:GridViewColumnLayoutItem ColumnName="LastName" />
+                <dx:GridViewColumnLayoutItem ColumnName="BirthDate" />
+                <dx:GridViewColumnLayoutItem ColumnName="HireDate" />
+                <dx:EditModeCommandLayoutItem Width="100%" HorizontalAlign="Right" />
+            </Items>
+        </EditFormLayoutProperties>
+        <EditFormLayoutProperties>
+            <SettingsAdaptivity AdaptivityMode="SingleColumnWindowLimit" SwitchToSingleColumnAtWindowInnerWidth="600" />
+        </EditFormLayoutProperties>
             <SettingsDetail ShowDetailRow="True" />
         </dx:ASPxGridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IOSWeb_TestConnectionString %>" SelectCommand="TestGrid_GetUsers" SelectCommandType="StoredProcedure"></asp:SqlDataSource>
