@@ -22,4 +22,12 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04B5D2AF-E1E1-4A1D-81DB-28BFF141826C}
 	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://certifiedlanguages.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebApplication8.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
 EndGlobal

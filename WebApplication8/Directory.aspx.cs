@@ -17,7 +17,7 @@ namespace WebApplication8
 {
     public partial class Directory : System.Web.UI.Page
     {
-        DataSet ds = null;
+        private DataSet ds = null;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -74,6 +74,7 @@ namespace WebApplication8
             }
             catch (Exception ex)
             {
+                
             }
 
         }
